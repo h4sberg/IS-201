@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bench Press Tips</title>
+    <link rel="stylesheet" href=".//css/scratch.css"> <!-- Linked to your CSS file -->
+</head>
+
+<!-- link to my nav pages, need to reposition and style later -->
+<a href="index.html">Resume Page</a>
+<a href="webapp.html">Hangman Game!</a>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Bench Press Tips</h1>
+            <p>Follow these tips to improve your bench press form and strength.</p>
+        </header>
+
+        <div class="nav-box">
+            <nav>
+                <a href="#video">Watch the Video</a> <!-- Anchor link for on-page navigation -->
+            </nav>
+        </div>
+
+        <div class="tips-box">
+            <section>
+                <h2>Tips for Effective Bench Pressing</h2>
+                <ol>
+                    <li>Ensure proper grip on the barbell
+                        <ul>
+                            <li>Place hands slightly wider than shoulder-width apart.</li>
+                            <li>Keep your wrists straight and strong.</li>
+                        </ul>
+                    </li>
+                    <li>Use your legs for stability
+                        <ul>
+                            <li>Plant your feet firmly on the floor to generate power.</li>
+                            <li>Engage your core to maintain stability during the lift.</li>
+                        </ul>
+                    </li>
+                    <li>Keep your elbows at a 45-degree angle</li>
+                    <li>Focus on controlled movement</li>
+                </ol>
+            </section>
+        </div>
+
+        <section>
+            <h2>Bench Press Image</h2>
+            <img src="assets/img/bench.jpeg" alt="Bench Press in Action">
+        </section>
+
+        <section id="video">
+            <h2>Bench Press Instructional Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hWbUlkb5Ms4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Interactive Tableau Graph</h2>
+            <div class='tableauPlaceholder' id='viz1744845556525' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Map ' src='https://public.tableau.com/static/images/Un/UnitedStatesDisappearedTracker/Map/1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='UnitedStatesDisappearedTracker/Map' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https://public.tableau.com/static/images/Un/UnitedStatesDisappearedTracker/Map/1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1744845556525');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                if (divElement.offsetWidth > 800) {
+                    vizElement.style.width = '1200px';
+                    vizElement.style.height = '1327px';
+                } else if (divElement.offsetWidth > 500) {
+                    vizElement.style.width = '1200px';
+                    vizElement.style.height = '1327px';
+                } else {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = '3177px';
+                }
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        </section>
+
+    </div>
+</body>
+</html>

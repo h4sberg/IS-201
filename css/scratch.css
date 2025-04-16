@@ -1,0 +1,66 @@
+/* General body styles */
+body {
+    background-color: #2f2f2f; /* Dark background */
+    color: #fff; /* White text */
+    font-family: 'Arial', sans-serif; /* Font family */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #444;
+    border-radius: 8px;
+}
+
+/* Link styles */
+a {
+    color: #4CAF50; /* Green link color */
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+}
+
+/* Anchor hover effect */
+a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* Image styles */
+img {
+    width: 100%; /* Make the image responsive */
+    max-width: 600px; /* Limit maximum width */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Container styles for positioning */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nav-box {
+    background-color: #333;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.tips-box {
+    background-color: #555;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #4CAF50;
+}
